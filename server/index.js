@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 // https://www.mongodb.com/cloud/atlas
-const CONNECTION_URL = 'mongodb+srv://jadejamigdev:C8Vt9gHbgCjZfi1n@cluster-1.c6td7gd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1';
+const CONNECTION_URL = 'replace this';
 
 // process.env.PORT is important because it will give the default port of 
 // the hosting platform once we deploy the app into a web hosting platform
